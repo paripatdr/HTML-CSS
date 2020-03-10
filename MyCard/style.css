@@ -33,12 +33,17 @@ img.logo{
 }
 
 .about{
-  font-size: 12px;
+  font-size: 13px;
   color: white;
   font-weight: bold;
   
 }
 .profile-tel{
   margin-left: 36px;
+}
+
+.about{
+  margin-left: 56px;
+  margin-top: 5px;
 }
  
