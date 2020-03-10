@@ -22,7 +22,9 @@ img.logo{
   margin-top: 10px;
   border-radius: 8%;
   background-image:url(picture/background.jpg);
+  border: 2px solid white; 
   box-shadow: 8px 9px #888888;
+
   
 }
 
