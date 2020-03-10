@@ -29,6 +29,7 @@ img.logo{
 .profile-name,.profile-email,.profile-github,.profile-tel{
   margin-left: 20px;
   font-weight: bolder;
+  color:#ced6e0;
 }
 
 .about{
