@@ -37,10 +37,8 @@ header{
 .logo{
     text-align: end;
     display: block;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
-
 section{ 
     margin-top: 40px;
     background-image:url(picture/wood-nav.jpg);
@@ -51,11 +49,7 @@ section{
     border-radius: 20px;
     border-style: outset;
     display: flex;
-
-
 }
-
-
 .profile {
    width: 250px;
    height: 300px;
@@ -83,4 +77,61 @@ section{
     font-size: 1.5vw;
     text-shadow: black 0.1em 0.5em 0.4em;
     font-weight: bold;
+}
+
+article{
+    background-color: #c7ae7b;
+    width: 40%;
+    margin-top: 60px;
+    height: 700px;
+    border-radius: 5%;
+    float: left;  
+}
+aside{
+    background-color:#dbcc90;
+    width: 55%;
+    height: 700px;
+    margin-left: 45%;
+    margin-top: 5%;
+    border-radius: 5%;
+    float: top;
+} 
+.main,.detail{
+  color: #522e1a;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.contact{
+    margin-left: 29%;
+    font-size: 2vw;
+}
+.logo-contact{
+    margin-left: 37%;
+    font-size: 1.2vw;
+}
+.logo-contact h3{
+    margin-left: -30%;
+}
+h3.tel{
+    margin-left: -12%;
+}
+.education{
+    margin-left: -60px;
+    text-align: center;
+    font-size: 2vw;
+}
+footer{
+    background-color: #c7ae7b;
+    height: 50px;
+    margin-top: 4%;
+    border-radius: 10%;
+}
+.skill{
+    margin-left: 33%;
+}
+.skill h1{
+    font-size: 2vw;
+}
+.skill ul{
+    font-size: 1.2vw;
 }
