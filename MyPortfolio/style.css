@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:  #f7f1e3;
+    margin: 7%;
+}
+
+header{
+    background-image: url(/picture/old-wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    box-shadow: 10px 10px #888888;
+    border-radius: 20px;
+    border-style: outset;
+}
+.name{
+    text-transform: uppercase;
+    color:white;
+    text-shadow: black 0.1em 0.5em 0.4em;
+
+}
+.name h1{
+    font-size: 3.5vw;
+}
+.name h2{
+    font-size: 1.5vw;
+}
+.name h3{
+    text-align: end;
+    font-size: 1.2vw;
+}
+.logo{
+    text-align: end;
+    display: block;
+    cursor: pointer;
+    
+}
+
+section{ 
+    margin-top: 40px;
+    background-image:url(/picture/wood-nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    box-shadow: 10px 10px #888888;
+    border-radius: 20px;
+    border-style: outset;
+    display: flex;
+
+
+}
+
+
+.profile {
+   width: 250px;
+   height: 300px;
+   margin-left: 5px;
+   border: 6px solid white; 
+   border-radius: 6px;  
+   box-shadow: 0px 0px 4px rgba(0,0,0, 0.9);
+   display: flex;
+
+}
+.name-about{
+    color: white;
+    font-size: 3vw;
+    margin-left: 5%;
+    text-shadow: black 0.1em 0.5em 0.4em;
+
+    
+}
+.article{
+    margin-left: 10%;
+}
+
+.article ul{
+    color: white;
+    font-size: 1.5vw;
+    text-shadow: black 0.1em 0.5em 0.4em;
+    font-weight: bold;
+}
