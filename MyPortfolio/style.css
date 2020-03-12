@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-image: url(/picture/old-wood.jpg);
+    background-image: url(/MyPortfolio/picture/old-wood.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
@@ -43,7 +43,7 @@ header{
 
 section{ 
     margin-top: 40px;
-    background-image:url(/picture/wood-nav.jpg);
+    background-image:url(/MyPortfolio/picture/wood-nav.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
