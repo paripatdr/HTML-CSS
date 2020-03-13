@@ -13,16 +13,12 @@ body{
     display: grid;
     grid-template-areas: "header header"
                           "section section"
-                          "content aside"
-                          "footer footer";
+                          "content aside";
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: auto auto auto 5%;
+   grid-template-rows: auto auto auto ;
    background: white;
    margin: 5%;
    grid-gap: 4% 4%;
-}
-.grid{
-    border: 1px solid whitesmoke;
 }
 .header{
     grid-area: header;
