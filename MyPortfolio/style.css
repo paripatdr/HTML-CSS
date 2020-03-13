@@ -83,9 +83,9 @@ article{
     background-color: #c7ae7b;
     width: 40%;
     margin-top: 60px;
-    height: 700px;
+    height: 720px;
     border-radius: 5%;
-    float: left;  
+     float: left;  
 }
 aside{
     background-color:#dbcc90;
@@ -135,3 +135,7 @@ footer{
 .skill ul{
     font-size: 1.2vw;
 }
+pre{
+    font-size: 1.2vw;
+}
+
