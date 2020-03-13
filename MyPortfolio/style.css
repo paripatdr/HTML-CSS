@@ -20,6 +20,7 @@ body{
    margin: 5%;
    grid-gap: 4% 4%;
 }
+
 .header{
     grid-area: header;
     color: white;
@@ -29,6 +30,7 @@ body{
     border-radius: 2%;
     border-style: outset;
     text-shadow: black 0.1em 0.5em 0.4em;
+    box-shadow: 10px 10px 5px  silver;
     text-transform: uppercase;
 }
 .name{
@@ -50,6 +52,8 @@ body{
     text-align: right;
     margin: 10px;
 }
+
+
 .section{
   grid-area: section;
   background-image:url(picture/wood-nav.jpg);
@@ -57,6 +61,7 @@ body{
   background-size: cover;
   border-radius: 5%;
   border-style: outset;
+  box-shadow: 10px 10px 5px  silver;
   display: flex;
 }
 .slogan{
