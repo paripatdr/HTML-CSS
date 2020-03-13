@@ -2,140 +2,146 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color:  #f7f1e3;
-    margin: 7%;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
 }
-
-header{
-    background-image: url(picture/old-wood.jpg);
+.container{
+    display: grid;
+    grid-template-areas: "header header"
+                          "section section"
+                          "content aside"
+                          "footer footer";
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: auto auto auto 5%;
+   background: white;
+   margin: 5%;
+   grid-gap: 4% 4%;
+}
+.grid{
+    border: 1px solid whitesmoke;
+}
+.header{
+    grid-area: header;
+    color: white;
+    background-image:url(picture/old-wood.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
-    box-shadow: 10px 10px #888888;
-    border-radius: 20px;
+    border-radius: 2%;
     border-style: outset;
+    text-shadow: black 0.1em 0.5em 0.4em;
+    text-transform: uppercase;
 }
 .name{
-    text-transform: uppercase;
-    color:white;
-    text-shadow: black 0.1em 0.5em 0.4em;
-
-}
-.name h1{
     font-size: 3.5vw;
-}
-.name h2{
-    font-size: 1.5vw;
-}
-.name h3{
-    text-align: end;
-    font-size: 1.2vw;
-}
-.logo{
-    text-align: end;
-    display: block;
-    cursor: pointer;   
-}
-section{ 
-    margin-top: 40px;
-    background-image:url(picture/wood-nav.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5%;
-    box-shadow: 10px 10px #888888;
-    border-radius: 20px;
-    border-style: outset;
-    display: flex;
-}
-.profile {
-   width: 250px;
-   height: 300px;
-   margin-left: 5px;
-   border: 6px solid white; 
-   border-radius: 6px;  
-   box-shadow: 0px 0px 4px rgba(0,0,0, 0.9);
-   display: flex;
-
-}
-.name-about{
-    color: white;
-    font-size: 3vw;
     margin-left: 5%;
-    text-shadow: black 0.1em 0.5em 0.4em;
-
+    margin-top: 5%;
     
 }
-.article{
-    margin-left: 10%;
-}
+.study{
+    font-size: 2vw;
+    margin-left: 8%;
 
-.article ul{
-    color: white;
+}
+.header h3{
     font-size: 1.5vw;
-    text-shadow: black 0.1em 0.5em 0.4em;
+    margin-left: 82%;
+}
+.social{
+    text-align: right;
+    margin: 10px;
+}
+.section{
+  grid-area: section;
+  background-image:url(picture/wood-nav.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5%;
+  border-style: outset;
+  display: flex;
+}
+.slogan{
+    font-size: 1.4vw;
+    color: white;
     font-weight: bold;
-}
-
-article{
-    background-color: #c7ae7b;
-    width: 40%;
-    margin-top: 60px;
-    height: 720px;
-    border-radius: 5%;
-     float: left;  
-}
-aside{
-    background-color:#dbcc90;
-    width: 55%;
-    height: 700px;
-    margin-left: 45%;
+    text-shadow: black 0.1em 0.5em 0.4em;
     margin-top: 5%;
-    border-radius: 5%;
-    float: top;
-} 
-.main,.detail{
-  color: #522e1a;
-  margin-left: 50px;
-  padding-top: 20px;
+    margin-left: 2%;
 }
-.contact{
-    margin-left: 29%;
-    font-size: 2vw;
-}
-.logo-contact{
-    margin-left: 37%;
-    font-size: 1.2vw;
-}
-.logo-contact h3{
-    margin-left: -30%;
-}
-h3.tel{
-    margin-left: -12%;
-}
-.education{
-    margin-left: -60px;
-    text-align: center;
-    font-size: 2vw;
-}
-footer{
-    background-color: #c7ae7b;
-    height: 50px;
-    margin-top: 4%;
-    border-radius: 10%;
-}
-.skill{
-    margin-left: 33%;
-}
-.skill h1{
-    font-size: 2vw;
+.slogan h1{
+    font-size: 2.5vw;
+    color: white;
+    text-shadow: black 0.1em 0.5em 0.4em;
 }
 .skill ul{
-    font-size: 1.2vw;
+    margin-left: 5%;
+    padding-bottom: 5%;
 }
-pre{
-    font-size: 1.2vw;
+
+.profile{
+   max-width:20%;
+   height:auto;
+   margin: 20px;
+   border-radius: 2px;  
+   box-shadow: 0px 0px 4px rgba(0,0,0, 1);
+}
+
+
+.content{
+    grid-area: content;
+    background: #c7ae7b;
+    width: 100%;
+    color: #522e1a;
+    font-size: 1.5vw;
+    border-radius: 5%;  
+
+}
+.about-me{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.about-me h3{
+    font-size: 1.4vw;
+}
+
+.aside{
+    background: #dbcc90;
+    grid-area: aside;
+    padding-bottom: 5%;
+    border-radius: 5%;  
+
+}
+.detail{
+    color: #522e1a;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+.detail h1{
+    font-size: 2.5vw;
+    margin-left: 3%;
+}
+.detail h3{
+    font-size: 2vw ;
+}
+.detail p{
+    font-size: 1.5vw;
+    margin-left: 5%;
+}
+
+@media(max-width: 700px){
+ .container{
+     grid-template-columns: 1fr;
+     grid-template-rows: auto;
+     grid-template-areas: 
+           "header"
+           "section"
+           "content"
+           "aside"
+           "footer"
+          ;
+ }
 }
 
